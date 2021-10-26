@@ -146,14 +146,10 @@ Chi tiết xem tại [https://developers.tiki.vn/docs/component/basic/view-conta
 
 Từ phiên bản 1.16, developer có thể sử dụng API my.previewImage để preview một số ảnh.
 
-API này chỉ chạy trên device, và chưa hỗ trợ ở Studio
-
-[ ] nhờ Hưng kiểm tra giúp
-
 Chi tiết về API có thể xem tại [https://developers.tiki.vn/docs/api/media/image/preview-image](https://developers.tiki.vn/docs/api/media/image/preview-image)
 
 ## Thêm component rich-text
 
-rich-text component cho phép developer có thể render một đoạn text từ HTML
+rich-text component cho phép developer có thể render HTML dưới dạng các nodes
 
 Chi tiết có thể xem tại [https://developers.tiki.vn/docs/component/basic/basic/rich-text](https://developers.tiki.vn/docs/component/basic/basic/rich-text)
