@@ -1,3 +1,98 @@
+# Studio 1.17
+
+## Support thêm API my.chooseVideo
+
+Từ version 1.17, Studio hỗ trợ thêm API để users có thể lấy ra các video từ trong thiết bị.
+API có 2 lựa chọn cho users
+
+- chọn video từ album
+- chọn video bằng cách quay video, khi quay video bạn có thêm lựa chọn để xác định độ dài của video được quay
+  quay
+
+Chi tiết có thể xem tại
+
+-> Nhờ Hân add thêm link document ở đây nhé
+
+## Support thêm API my.crcreateterstitialAd
+
+Chú ý: API đang ở chế độ alpha, sẽ có thêm những thay đổi mới trong tương lai
+
+my.createterstitialAd cho phép nhà phát triển có thể hiển thị một banner quảng cáo trong ứng dụng của mình.
+
+Nội dung của banner quảng cáo cugnx như việc truy vết xem banner này được bao nhiêu người xem, bao nhiêu lượt click sẽ được Tini App Framework tự xử lý
+
+Chi tiết có thể xem tại
+
+-> Nhờ Hân add thêm link document ở đây nhé
+
+## Cho phép thêm lựa chọn injectedScript vào trong web-view component
+
+Component `web-view` được thêm một lựa chọn `injectedScript`.
+
+Với lựa chọn này, nhà phát triển có thể viết các JS script để thay đổi nội dung trang web mà họ muốn hiển thị.
+
+Tuy nhiên, để sử dụng chức năng này, ứng dụng của bạn cần có thêm backendpermission `setWebViewOnLoad`
+
+## Support thêm API để crop image
+
+Chi tiết có thể xem tại
+
+-> Nhờ Hân add thêm link document ở đây nhé
+
+Đi kèm với API crop image, chúng tôi cũng hỗ trợ thêm component mới <crop-image> cho phép để hỗ trợ việc crop một ảnh bất kỳ.
+
+Nếu như ứng dụng của bạn muốn custom UI cho phần crop ảnh, bạn có thể sử dụng API.
+
+Tuy nhiên, nếu bạn muốn dùng luôn một component có sẵn, thì <crop-image> là dành cho bạn.
+
+Chi tiết về <crop-image> có thể xem thêm tại
+
+-> Nhờ Hân add thêm link cho <crop-image> nhé
+
+## Sửa lỗi UI của my.previewImage
+
+Trong phiên bản mới, chúng tôi cũng sửa lỗi khi hiển thị status bar trên Android cho API my.previewImage.
+
+## Hỗ trợ ref một Component bất kỳ
+
+Trong phiên bản mới, chúng tôi hỗ trợ việc tham chiếu tới một component bất kỳ thông qua tham số ref.
+
+Với tham số ref, Page có thể trỏ với component, và gọi các hàm của Component một cách chủ động.
+
+Chi tiết xem tại [https://developers.tiki.vn/docs/framework/component/ref](https://developers.tiki.vn/docs/framework/component/ref)
+
+## Hỗ trợ thêm Component Virtual List
+
+Với Virtual List, Tini App Framework cung cấp giải pháp để cải thiện việc render các list có rất nhiều item.
+
+Chi tiết xem tại
+
+-> Nhờ Hưng thêm tài liệu giúp anh nhé
+
+## Thêm Component Calender
+
+Trong version mới của Tini UI library, chúng tôi cung cấp thêm Component ....
+
+-> nhờ Hưng thêm giúp anh nhé
+
+## Tối ưu việc upload ứng dụng với Studio
+
+Từ version 1.17, khi ứng dụng của bạn vượt quá hạn mức cho phép của Studio, Studio sẽ ngay lập tức thông báo lỗi cho bạn biết, mà không cần phải upload file lên server nữa.
+
+## Sửa lại version của thư viện readable-stream
+
+Từ version 1.17, Tini Studio sẽ sử dụng thư viện readable-stream version 2.0.2.
+
+Thư viện này được tích hợp sẵn cùng với webpack 4.
+
+## Hỗ trợ CSS selector nth-child
+
+Từ version 1.17, Tini Studio sẽ hỗ trợ việc sử dụng các selector nth-child
+
+## Hỗ trợ thêm biến TF_MINIAPP_COMPILER_VERSION
+
+Từ version 1.17, Tini Studio sẽ tự động thêm một biến TF_MINIAPP_COMPILER_VERSION vào các Tini App.
+
 # Studio 1.16
 
 ## Thêm file project.config.json
