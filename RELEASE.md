@@ -186,25 +186,23 @@ thì sẽ chỉ có thể chọn được các video mà không lựa chọn đ�
 
 Bug này sẽ được fix trên bản mới.
 
-## Thêm API my.canPullDown
+## Thêm API my.setCanPullDown
 
-[ ] Nhờ Hân giúp thêm document vào link vào RELEASE NOTES
+Từ phiên bản 1.16, developer có thể sử dụng API my.setCanPullDown để set lại việc hỗ trợ kéo xuống để refresh.
 
-## Thêm API my.onPullDowRefresh
-
-[ ] Nhờ Hân giúp thêm document vào link vào RELEASE NOTES
+Chi tiết về API có thể xem tại https://developers.tiki.vn/docs/api/ui/pull-down/can-pull-down
 
 ## Thêm API my.setBackgroundTextStyle
 
-[ ] Nhờ Hân giúp thêm document vào link vào RELEASE NOTES
+Từ phiên bản 1.16, developer có thể sử dụng API my.setBackgroundTextStyle để set lại font và color của text Kéo xuống để refresh.
+
+Chi tiết về API có thể xem tại https://developers.tiki.vn/docs/api/ui/background/set-background-text-style
 
 ## Thêm API my.setBackgroundColor
 
-[ ] Nhờ Hân giúp thêm document vào link vào RELEASE NOTES
+Từ phiên bản 1.16, developer có thể sử dụng API my.setBackgroundColor để set màu background của window.
 
-## Thêm API my.onPullDowRefresh
-
-[ ] Nhờ Hân giúp thêm document vào link vào RELEASE NOTES
+Chi tiết về API có thể xem tại https://developers.tiki.vn/docs/api/ui/background/set-background-color
 
 ## Yêu cầu phải whitelist domain cho component `web-view`
 
@@ -241,14 +239,10 @@ Chi tiết xem tại [https://developers.tiki.vn/docs/component/basic/view-conta
 
 Từ phiên bản 1.16, developer có thể sử dụng API my.previewImage để preview một số ảnh.
 
-API này chỉ chạy trên device, và chưa hỗ trợ ở Studio
-
-[ ] nhờ Hưng kiểm tra giúp
-
 Chi tiết về API có thể xem tại [https://developers.tiki.vn/docs/api/media/image/preview-image](https://developers.tiki.vn/docs/api/media/image/preview-image)
 
 ## Thêm component rich-text
 
-rich-text component cho phép developer có thể render một đoạn text từ HTML
+rich-text component cho phép developer có thể render HTML dưới dạng các nodes
 
 Chi tiết có thể xem tại [https://developers.tiki.vn/docs/component/basic/basic/rich-text](https://developers.tiki.vn/docs/component/basic/basic/rich-text)
