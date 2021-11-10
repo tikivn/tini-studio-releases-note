@@ -13,7 +13,7 @@ Chi tiết có thể xem tại
 
 -> Nhờ Hân add thêm link document ở đây nhé
 
-## Support thêm API my.crcreateterstitialAd
+## Support thêm API my.createterstitialAd
 
 Chú ý: API đang ở chế độ alpha, sẽ có thêm những thay đổi mới trong tương lai
 
