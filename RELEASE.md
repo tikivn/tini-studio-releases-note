@@ -11,19 +11,19 @@ API có 2 lựa chọn cho users
 
 Chi tiết có thể xem tại
 
--> Nhờ Hân add thêm link document ở đây nhé
+https://developers.tiki.vn/docs/api/media/video/choose-video
 
-## Support thêm API my.createterstitialAd
+## Support thêm API my.createtInterstitialAd
 
 Chú ý: API đang ở chế độ alpha, sẽ có thêm những thay đổi mới trong tương lai
 
-my.createterstitialAd cho phép nhà phát triển có thể hiển thị một banner quảng cáo trong ứng dụng của mình.
+my.createtInterstitialAd cho phép nhà phát triển có thể hiển thị một banner quảng cáo trong ứng dụng của mình.
 
-Nội dung của banner quảng cáo cugnx như việc truy vết xem banner này được bao nhiêu người xem, bao nhiêu lượt click sẽ được Tini App Framework tự xử lý
+Nội dung của banner quảng cáo cũng như việc truy vết xem banner này được bao nhiêu người xem, bao nhiêu lượt click sẽ được Tini App Framework tự xử lý
 
 Chi tiết có thể xem tại
 
--> Nhờ Hân add thêm link document ở đây nhé
+https://developers.tiki.vn/docs/api/ads/create-interstitial-ad
 
 ## Cho phép thêm lựa chọn injectedScript vào trong web-view component
 
@@ -37,17 +37,18 @@ Tuy nhiên, để sử dụng chức năng này, ứng dụng của bạn cần 
 
 Chi tiết có thể xem tại
 
--> Nhờ Hân add thêm link document ở đây nhé
+https://developers.tiki.vn/docs/api/media/image/crop-image
 
-Đi kèm với API crop image, chúng tôi cũng hỗ trợ thêm component mới <crop-image> cho phép để hỗ trợ việc crop một ảnh bất kỳ.
+Đi kèm với API crop image, chúng tôi cũng hỗ trợ thêm component mới <image-cropper> cho phép để hỗ trợ việc crop một ảnh bất kỳ.
 
-Nếu như ứng dụng của bạn muốn custom UI cho phần crop ảnh, bạn có thể sử dụng API.
+Nếu bạn đơn giản chỉ muốn crop hình, bạn có thể sử dụng API my.cropImage.
 
-Tuy nhiên, nếu bạn muốn dùng luôn một component có sẵn, thì <crop-image> là dành cho bạn.
+Tuy nhiên, nếu bạn customize việc crop hình, thì <image-cropper> là dành cho bạn.
 
-Chi tiết về <crop-image> có thể xem thêm tại
-
--> Nhờ Hân add thêm link cho <crop-image> nhé
+Chi tiết về <image-cropper> có thể xem thêm tại
+https://developers.tiki.vn/docs/component/basic/utilities/image-cropper
+Sử dụng component <image-cropper> sẽ phải kèm với jsapi createCropperContext để thực hiện crop hình.
+https://developers.tiki.vn/docs/api/media/image/create-cropper-context
 
 ## Sửa lỗi UI của my.previewImage
 
