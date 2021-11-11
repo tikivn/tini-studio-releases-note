@@ -62,19 +62,17 @@ Với tham số ref, Page có thể trỏ với component, và gọi các hàm c
 
 Chi tiết xem tại [https://developers.tiki.vn/docs/framework/component/ref](https://developers.tiki.vn/docs/framework/component/ref)
 
-## Hỗ trợ thêm Component Virtual List
+## Hỗ trợ thêm Component Recycle View
 
-Với Virtual List, Tini App Framework cung cấp giải pháp để cải thiện việc render các list có rất nhiều item.
-
-Chi tiết xem tại
-
--> Nhờ Hưng thêm tài liệu giúp anh nhé
+Với `recycle-view` component, Tini App Framework cung cấp giải pháp để cải thiện việc render các list có rất nhiều item.
+	
+Chi tiết xem tại [https://developers.tiki.vn/docs/component/basic/view-container/recycle-view](https://developers.tiki.vn/docs/component/basic/view-container/recycle-view)
 
 ## Thêm Component Calender
 
-Trong version mới của Tini UI library, chúng tôi cung cấp thêm Component ....
-
--> nhờ Hưng thêm giúp anh nhé
+Trong version mới của Tini UI library, chúng tôi cung cấp thêm Component `calendar`
+	
+Chi tiết xem tại [https://developers.tiki.vn/docs/component/advance/form/calendar](https://developers.tiki.vn/docs/component/advance/form/calendar)
 
 ## Tối ưu việc upload ứng dụng với Studio
 
