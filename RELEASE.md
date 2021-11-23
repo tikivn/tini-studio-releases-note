@@ -1,3 +1,107 @@
+# Studio 1.18
+
+## Hỗ trợ thêm API my.redirectTo
+
+Trong phiên bản mới, chúng tôi hỗ trợ thêm API `my.redirectTo`.
+
+API này cho phép các nhà phát triển có thể thay thế trang hiện tại bằng một trang khác.
+
+Chi tiết có thể xem tại
+
+https://developers.tiki.vn/docs/api/ui/route/redirect-to
+
+## Hỗ trợ thêm API để kiểm tra xem users đã cho phép nhận notification từ app Tiki hay chưa
+
+[ ] Nhờ Hân thêm link tới tài liệu
+
+## Hỗ trợ thêm API để trimming Video
+
+[ ] Nhờ Hân thêm link tới tài liệu
+
+## Sửa bug app.onShow
+
+Trước đây, nếu như app A mở ra app B mới.
+
+Khi app B bị close, thì hàm onShow của app A không được gọi.
+
+Trong phiên bản mới, chúng tôi đã sửa lại bug này.
+
+## Sửa lỗi my.reLaunch không truyền được params
+
+Trước đây khi gọi
+
+```
+my.reLaunch({ url: 'pages/index/index?a=1' })
+```
+
+Thì trong page `pages/index/index` ở hàm onLoad, sẽ không nhận được query string là `a=1`
+
+Trong phiên bản mới, chúng tôi cũng sửa lại API `my.reLaunch` để fix bug này
+
+## Sửa lại hàm `my.getUserInfo`
+
+Trong phiên bản cũ, `my.getUserInfo` trả về `phoneNumber`.
+
+Tuy nhiên, trong lần fix này, chúng tôi sẽ trả về cả trường `phone` và trường `phoneNumber`.
+
+Vui lòng sửa lại API của các bạn để nhận trường `phone`. Trường `phoneNumber` sẽ bị deprecate sau một tháng nữa.
+
+## Sửa lỗi không gọi Component.didUnmount khi page bị remove
+
+Trong các phiên bản cũ, khi một page bị xoá đi, các Component Instance của page đó sẽ không gọi tới hàm didUnmount.
+
+Bug này đã được fix trong phiên bản mới
+
+## Sửa lại cơ chế nhận utm_medium, utm_source
+
+Từ phiên bản mới trở đi, mỗi khi page được navigateTo / reLaunch / redirect, page sẽ nhận được
+
+utm_source, utm_medium từ page đầu tiên khi mở app
+
+Cụ thể nếu app được mở với page `pages/page-a/index` với query string là
+
+```
+utm_source=tini-app
+```
+
+Sau đó, trong app, khi bạn gọi API `my.navigateTo({ url: 'pages/page-b/index' })`
+
+Hàm `onLoad` của `page-b` sẽ nhận được query string là
+
+```
+utm_source=tini-app
+```
+
+Nếu như, bạn chủ động truyền vào `utm_source` khi gọi API `my.navigateTo` / `my.redirectTo` / `my.reLaunch`,
+thì các giá trị này sẽ được ghi nhận.
+
+## Sửa lại API my.navigationToMiniApp cần backend permission khi truyền vào app meta
+
+Trước đây khi sử dụng `mynavigationToMiniApp`, developers có thể truyền vào trường `appMeta` trong đó các domain
+của `appMeta` là sub domain của Tiki.
+
+Từ phiên bản mới, muốn sử dụng `appMeta` các bạn cần có quyền từ backend.
+
+## Sửa lại lỗi khi mở nhiều project
+
+Trong các version cũ, có tình trạng khi mở project A, sau đó người dùng mở thêm project B là project A không xem được simulator.
+
+Bug này đã được fix trong version mới.
+
+## Sửa lỗi ngẫu nhiên không kết nối được tới devtool trên Window
+
+Trong version mới, chúng tôi cũng sửa lỗi không kết nối được tới devtool trên Window
+
+## Hỗ trợ tính năng mới có thể import một project từ Github
+
+Trong version mới, trên Studio sẽ hỗ trợ tính năng import một project từ github url.
+
+Tính năng này sẽ giúp các bạn có thể trải nghiệm các tính năng mới từ trang tài liệu dễ dàng hơn.
+
+Chi tiết có thể xem tại
+
+https://developers.tiki.vn/docs/introduce/how-to-use-docs/experience-sample-code
+
 # Studio 1.17
 
 ## Support thêm API my.chooseVideo
@@ -65,13 +169,11 @@ Chi tiết xem tại [https://developers.tiki.vn/docs/framework/component/ref](h
 ## Hỗ trợ thêm Component Recycle View
 
 Với `recycle-view` component, Tini App Framework cung cấp giải pháp để cải thiện việc render các list có rất nhiều item.
-	
 Chi tiết xem tại [https://developers.tiki.vn/docs/component/basic/view-container/recycle-view](https://developers.tiki.vn/docs/component/basic/view-container/recycle-view)
 
 ## Thêm Component Calender
 
 Trong version mới của Tini UI library, chúng tôi cung cấp thêm Component `calendar`
-	
 Chi tiết xem tại [https://developers.tiki.vn/docs/component/advance/form/calendar](https://developers.tiki.vn/docs/component/advance/form/calendar)
 
 ## Tối ưu việc upload ứng dụng với Studio
