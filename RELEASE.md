@@ -2,6 +2,18 @@
 
 ## Tính năng mới
 
+### Thêm API my.multiLevelSelect
+
+API dùng để tạo component select đa cấp.
+
+Chi tiết: https://developers.tiki.vn/docs/api/ui/multi-level-select/multi-level-select
+
+### Thêm API my.optionsSelect
+
+API dùng để tạo component Select. Bạn có thể tạo component Select 1 cấp hoặc 2 cấp.
+
+Chi tiết: https://developers.tiki.vn/docs/api/ui/option-selector/option-selector#giới-thiệu
+
 ### Thêm API my.trimVideo
 
 API cho phép cắt video trong 1 khoảng thời gian.
