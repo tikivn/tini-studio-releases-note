@@ -1,3 +1,81 @@
+# Studio 1.19
+
+## Tính năng mới
+
+### Thêm API my.trimVideo
+
+API cho phép cắt video trong 1 khoảng thời gian.
+
+Chi tiết: https://developers.tiki.vn/docs/api/media/video/trim-video
+
+### Thêm API my.vibrate
+
+API dùng để làm rung thiết bị, với thời gian rung 200ms.
+
+Chi tiết: https://developers.tiki.vn/docs/api/device/vibrate
+
+### Thêm API my.vibrateShort
+
+API dùng để làm rung thiết bị, với thời gian rung 40ms.
+
+Chi tiết: https://developers.tiki.vn/docs/api/device/vibrateShort
+
+### Thêm API my.vibrateLong
+
+API dùng để làm rung thiết bị, với thời gian rung 400ms.
+
+Chi tiết: https://developers.tiki.vn/docs/api/device/vibrateLong
+
+### Thêm API my.openSetting
+
+API dùng để mở cài đặt của thiết bị.
+
+### Thêm API my.getNetworkType
+
+API dùng để lấy thông tin kết nối mạng của thiết bị.
+
+Chi tiết: https://developers.tiki.vn/docs/api/device/get-network-type
+
+### Thêm API my.setKeepScreenOn
+
+API dùng để giữ màn hình luôn sáng.
+
+Chi tiết: https://developers.tiki.vn/docs/api/device/keep-screen-on
+
+### Thêm API my.getScreenBrightness
+
+API dùng để lấy thông tin độ sáng màn hình.
+
+Chi tiết: https://developers.tiki.vn/docs/api/device/get-screen-brightness
+
+### Thêm API my.callSecuritySystem
+
+API này dùng để xác thực người dùng khi gọi các APIs lấy dữ liệu từ hệ thống Tiki.
+
+### Thêm API my.exitMiniapp
+
+API này cho phép các nhà phát triển thoát khỏi Tini App.
+
+### Thêm API my.getBatteryInfo
+
+API dùng để lấy thông tin pin của thiết bị.
+
+Chi tiết: https://developers.tiki.vn/docs/api/device/get-battery-info
+
+### Thêm API my.datePicker
+
+API này cho phép các nhà phát triển tạo ra các hộp chọn ngày và giờ.
+
+### Thêm cấu hình rootFontSize cho window và page
+
+Trong phiên bản mới, chúng tôi thêm cấu hình rootFontSize cho window và page. Để thay đổi kích thước của font chính, bạn có thể thay đổi cấu hình này trong file `app.json` hoặc `.json` cho page của bạn.
+
+## Sửa lỗi
+
+### Sửa lỗi common command cho Studio: Select All, Copy, Paste, Cut, Delete
+
+### Sửa lỗi decode không hoạt động trên text component
+
 # Studio 1.18
 
 ## Hỗ trợ thêm API my.redirectTo
@@ -12,11 +90,11 @@ https://developers.tiki.vn/docs/api/ui/route/redirect-to
 
 ## Hỗ trợ thêm API để kiểm tra xem users đã cho phép nhận notification từ app Tiki hay chưa
 
-[ ] Nhờ Hân thêm link tới tài liệu
+<!-- [ ] Nhờ Hân thêm link tới tài liệu -->
 
 ## Hỗ trợ thêm API để trimming Video
 
-[ ] Nhờ Hân thêm link tới tài liệu
+<!-- [ ] Nhờ Hân thêm link tới tài liệu -->
 
 ## Sửa bug app.onShow
 
