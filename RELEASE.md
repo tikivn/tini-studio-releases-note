@@ -2,6 +2,10 @@
 
 ## Tính năng mới
 
+### Thêm tính năng tạo page, component
+
+Trong phiên bản mới, bạn có thể tạo page, component bằng cách nhấn vào menu File chọn New Page hoặc New Component.
+
 ### Thêm API my.multiLevelSelect
 
 API dùng để tạo component select đa cấp.
