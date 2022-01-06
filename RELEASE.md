@@ -1,3 +1,59 @@
+# Studio 1.20
+
+## Tính năng mới
+
+### Thêm tính năng tự động gợi ý các thuộc tính cấu hình App, Page, Component
+
+Trong phiên bản mới, Tini App Studio sẽ gợi ý các thuộc tính cấu hình và giá trị cho các thành phần của App, Page, Component trong json file.
+
+### Thêm API my.getSetting
+
+API lấy thông tin cài đặt. Trả về kết quả cài đặt quyền của người dùng. Chỉ quyền đã yêu cầu từ người dùng mới xuất hiện trong kết quả trả về.
+
+Chi tiết: https://developers.tiki.vn/docs/api/device/get-setting
+
+### Thêm API my.startCompass
+
+API dùng để start theo dõi dữ liệu compass.
+
+Chi tiết: https://developer.tiki.vn/docs/api/device/compass/start-compass
+
+### Thêm API my.stopCompass
+
+API dùng để dừng theo dõi dữ liệu compass.
+
+Chi tiết: https://developer.tiki.vn/docs/api/device/compass/stop-compass
+
+### Thêm API my.onCompassChange
+
+API để theo dõi các sự kiện thay đổi dữ liệu compass. Sau khi giao diện được gọi, quá trình giám sát sẽ tự động bắt đầu và khoảng thời gian gọi lại là 200ms. Bạn có thể sử dụng my.offCompassChange() để dừng việc giám sát.
+
+Chi tiết: https://developer.tiki.vn/docs/api/device/compass/on-compass
+
+### Thêm API my.offCompassChange
+
+API giúp dừng việc theo dõi dữ liệu compass.
+
+Chi tiết: https://developer.tiki.vn/docs/api/device/compass/off-compass
+
+### Thêm API my.onNetworkStatusChange
+
+API dùng để nhận sự kiện thay đổi trạng thái mạng của thiết bị.
+
+Chi tiết: https://developer.tiki.vn/docs/api/device/on-network-status-change
+
+### Thêm API my.offNetworkStatusChange
+
+API dùng để huỷ nhận sự kiện thay đổi trạng thái mạng của thiết bị.
+
+Chi tiết: https://developer.tiki.vn/docs/api/device/off-network-status-change
+
+## Sửa lỗi
+
+### Sửa lỗi sai defaultTitle trong TabBar
+
+### Sửa lỗi readonly color trong input
+
 # Studio 1.19
 
 ## Tính năng mới
