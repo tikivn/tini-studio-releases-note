@@ -1,3 +1,55 @@
+# Studio 1.21
+
+Chúng tôi luôn cố gắng cải thiện sản phẩm làm sao để việc phát triển ứng dụng thuận tiện hơn, nhanh hơn và cũng như chất lượng hơn. Tuy nhiên sẽ có những thay đổi phục vụ cho mục tiêu đó mà có thể dẫn tới việc không tương thích cho những ứng dụng Tini App hiện tại. Ở trong các phiên bản framework sắp tới, chúng tôi xin thông báo tới các developers về một số thay đổi có thể ảnh hưởng tới ứng dụng của bạn trên Tiki.
+
+## Thay đổi có thể gây ảnh hưởng
+
+### Kiến trúc mới cho custom component
+
+Những thay đổi bao gồm: Đồng bộ lifecycle giữa render và worker, tách biệt lifecycle methods và component methods. Những thay đổi sẽ được thông báo trong mục Console của DevTools.
+
+Chi tiết: https://community.tiki.vn/t/thong-bao-thay-d-i-v-ki-n-truc-ben-trong-c-a-custom-component/1852
+
+## Cập nhật
+
+### Cải thiện hiệu suất cho modal
+
+Trong phiên bản mới, hiệu suất chuyển cảnh của các modal: toast, alert, prompt đã được tối ưu hóa.
+
+### Cập nhật my.chooseVideo thêm giá trị để trả về original video
+
+Trong phiên bản mới, API my.chooseVideo có thêm tuỳ chọn compressed để trả về original video.
+
+Chi tiết: https://developers.tiki.vn/docs/api/media/video/choose-video
+
+## Tính năng mới
+
+### Thêm API my.makePayment
+
+API dùng để tạo payment. Developer dùng api của Tiki để tạo order từ đơn hàng, sau đó gọi API my.makePayment để tạo khởi tạo, Tini App sẽ được redirect tới luồng payment của Tiki. Sau khi thanh toán thành công sẽ trả về callback success hoặc fail.
+
+Chi tiết: https://developers.tiki.vn/docs/api/open/make-payment
+
+### Thêm API my.addPhoneContact
+
+API dùng để chọn ghi thông tin liên hệ vào sổ địa chỉ của điện thoại dưới dạng tạo một liên hệ mới hoặc thêm vào một liên hệ hiện có.
+
+Chi tiết: https://developers.tiki.vn/docs/api/device/add-phone-contact
+
+### Thêm API my.watchShake
+
+API dùng để nhận sự kiện lắc thiết bị. Success callback chỉ được gọi một lần khi thiết bị được lắc sau khi API đã được gọi. Cần gọi lại API này nếu muốn nhận sự kiện thiết bị lắc ở lần sau.
+
+Chi tiết: https://developers.tiki.vn/docs/api/device/watch-shake
+
+## Sửa lỗi
+
+### Sửa lỗi Studio không gợi ý syntax cho TCSS
+
+### Sửa lỗi Tini App đôi khi không hoạt động trên iOS 12
+
+---
+
 # Studio 1.20
 
 ## Tính năng mới
@@ -53,6 +105,8 @@ Chi tiết: https://developer.tiki.vn/docs/api/device/off-network-status-change
 ### Sửa lỗi sai defaultTitle trong TabBar
 
 ### Sửa lỗi readonly color trong input
+
+---
 
 # Studio 1.19
 
@@ -147,6 +201,8 @@ Trong phiên bản mới, chúng tôi thêm cấu hình rootFontSize cho window 
 ### Sửa lỗi common command cho Studio: Select All, Copy, Paste, Cut, Delete
 
 ### Sửa lỗi decode không hoạt động trên text component
+
+---
 
 # Studio 1.18
 
@@ -252,6 +308,8 @@ Chi tiết có thể xem tại
 
 https://developers.tiki.vn/docs/introduce/how-to-use-docs/experience-sample-code
 
+---
+
 # Studio 1.17
 
 ## Support thêm API my.chooseVideo
@@ -343,6 +401,8 @@ Từ version 1.17, Tini Studio sẽ hỗ trợ việc sử dụng các selector 
 ## Hỗ trợ thêm biến TF_MINIAPP_COMPILER_VERSION
 
 Từ version 1.17, Tini Studio sẽ tự động thêm một biến TF_MINIAPP_COMPILER_VERSION vào các Tini App.
+
+---
 
 # Studio 1.16
 
