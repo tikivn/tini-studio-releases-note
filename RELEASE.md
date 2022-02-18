@@ -1,3 +1,61 @@
+# Studio 1.22
+
+## Cập nhật
+
+### Thêm thuộc tính paymentMethod cho API my.makePayment
+
+Thêm tham số paymentMethod: 'cod' nếu khách hàng chọn thanh toán tiền mặt khi giao hàng.
+
+Chi tiết: <https://developers.tiki.vn/docs/api/open/make-payment>
+
+## Tính năng mới
+
+### Tính năng Code Completion cho Javascript
+
+Tự động gợi ý syntax cho Javascript; hỗ trợ nhảy files, types, ...
+
+### Giao diện mới cho tính năng tạo một project
+
+Giao diện mới cho tính năng tạo một project. Hỗ trợ thêm tuỳ chọn tạo/không tạo folder mới, tạo/không tạo git repo.
+
+### Hỗ trợ bật/tắt hot reload của simulator
+
+Cho phép bật/tắt tính năng hot reload simulator mỗi khi lưu file. Nhằm mục đích để cho người dùng chủ động reload lại simulator khi cần thiết, cải thiện hiệu suất.
+
+### Thêm API my.getAppSecret
+
+my.getAppSecret là API dùng để lấy thông tin secret của Tini App hiện tại.
+
+Chi tiết: <https://developers.tiki.vn/docs/api/basic/get-app-secret>
+
+## Thêm API my.openAppSetting
+
+my.openAppSetting là API dùng để mở app cài đặt của hệ thống và hiển thị màn hình các cài đặt tuỳ biến của app hiện tại (nếu có).
+
+Chi tiết: <https://developers.tiki.vn/docs/api/device/open-app-setting>
+
+### Thêm API my.pageScrollTo
+
+my.pageScrollTo là API dùng để scroll đến vị trí bất kỳ trong trang.
+
+Chi tiết: <https://developers.tiki.vn/docs/api/ui/page-scroll-to/page-scroll-to#sample-code>
+
+### Thêm player component
+
+Player component hỗ trợ xem video trên youtube, không giống như trên video component là hỗ trợ cho cả native và web video, player component chỉ hỗ trợ dạng web video.
+
+Chi tiết: <https://developers.tiki.vn/docs/component/basic/media/player>
+
+## Sửa lỗi
+
+### Sửa lỗi AppLog panel không hoạt động
+
+### Sửa lỗi Ad Banner không hiển thị trong webview
+
+### Sửa lỗi overlay của date picker
+
+---
+
 # Studio 1.21
 
 Chúng tôi luôn cố gắng cải thiện sản phẩm làm sao để việc phát triển ứng dụng thuận tiện hơn, nhanh hơn và cũng như chất lượng hơn. Tuy nhiên sẽ có những thay đổi phục vụ cho mục tiêu đó mà có thể dẫn tới việc không tương thích cho những ứng dụng Tini App hiện tại. Ở trong các phiên bản framework sắp tới, chúng tôi xin thông báo tới các developers về một số thay đổi có thể ảnh hưởng tới ứng dụng của bạn trên Tiki.
@@ -8,7 +66,7 @@ Chúng tôi luôn cố gắng cải thiện sản phẩm làm sao để việc p
 
 Những thay đổi bao gồm: Đồng bộ lifecycle giữa render và worker, tách biệt lifecycle methods và component methods. Những thay đổi sẽ được thông báo trong mục Console của DevTools.
 
-Chi tiết: https://community.tiki.vn/t/thong-bao-thay-d-i-v-ki-n-truc-ben-trong-c-a-custom-component/1852
+Chi tiết: <https://community.tiki.vn/t/thong-bao-thay-d-i-v-ki-n-truc-ben-trong-c-a-custom-component/1852>
 
 ## Cập nhật
 
@@ -20,7 +78,7 @@ Trong phiên bản mới, hiệu suất chuyển cảnh của các modal: toast,
 
 Trong phiên bản mới, API my.chooseVideo có thêm tuỳ chọn compressed để trả về original video.
 
-Chi tiết: https://developers.tiki.vn/docs/api/media/video/choose-video
+Chi tiết: <https://developers.tiki.vn/docs/api/media/video/choose-video>
 
 ## Tính năng mới
 
@@ -28,19 +86,19 @@ Chi tiết: https://developers.tiki.vn/docs/api/media/video/choose-video
 
 API dùng để tạo payment. Developer dùng api của Tiki để tạo order từ đơn hàng, sau đó gọi API my.makePayment để tạo khởi tạo, Tini App sẽ được redirect tới luồng payment của Tiki. Sau khi thanh toán thành công sẽ trả về callback success hoặc fail.
 
-Chi tiết: https://developers.tiki.vn/docs/api/open/make-payment
+Chi tiết: <https://developers.tiki.vn/docs/api/open/make-payment>
 
 ### Thêm API my.addPhoneContact
 
 API dùng để chọn ghi thông tin liên hệ vào sổ địa chỉ của điện thoại dưới dạng tạo một liên hệ mới hoặc thêm vào một liên hệ hiện có.
 
-Chi tiết: https://developers.tiki.vn/docs/api/device/add-phone-contact
+Chi tiết: <https://developers.tiki.vn/docs/api/device/add-phone-contact>
 
 ### Thêm API my.watchShake
 
 API dùng để nhận sự kiện lắc thiết bị. Success callback chỉ được gọi một lần khi thiết bị được lắc sau khi API đã được gọi. Cần gọi lại API này nếu muốn nhận sự kiện thiết bị lắc ở lần sau.
 
-Chi tiết: https://developers.tiki.vn/docs/api/device/watch-shake
+Chi tiết: <https://developers.tiki.vn/docs/api/device/watch-shake>
 
 ## Sửa lỗi
 
@@ -62,43 +120,43 @@ Trong phiên bản mới, Tini App Studio sẽ gợi ý các thuộc tính cấu
 
 API lấy thông tin cài đặt. Trả về kết quả cài đặt quyền của người dùng. Chỉ quyền đã yêu cầu từ người dùng mới xuất hiện trong kết quả trả về.
 
-Chi tiết: https://developers.tiki.vn/docs/api/device/get-setting
+Chi tiết: <https://developers.tiki.vn/docs/api/device/get-setting>
 
 ### Thêm API my.startCompass
 
 API dùng để start theo dõi dữ liệu compass.
 
-Chi tiết: https://developer.tiki.vn/docs/api/device/compass/start-compass
+Chi tiết: <https://developer.tiki.vn/docs/api/device/compass/start-compass>
 
 ### Thêm API my.stopCompass
 
 API dùng để dừng theo dõi dữ liệu compass.
 
-Chi tiết: https://developer.tiki.vn/docs/api/device/compass/stop-compass
+Chi tiết: <https://developer.tiki.vn/docs/api/device/compass/stop-compass>
 
 ### Thêm API my.onCompassChange
 
 API để theo dõi các sự kiện thay đổi dữ liệu compass. Sau khi giao diện được gọi, quá trình giám sát sẽ tự động bắt đầu và khoảng thời gian gọi lại là 200ms. Bạn có thể sử dụng my.offCompassChange() để dừng việc giám sát.
 
-Chi tiết: https://developer.tiki.vn/docs/api/device/compass/on-compass
+Chi tiết: <https://developer.tiki.vn/docs/api/device/compass/on-compass>
 
 ### Thêm API my.offCompassChange
 
 API giúp dừng việc theo dõi dữ liệu compass.
 
-Chi tiết: https://developer.tiki.vn/docs/api/device/compass/off-compass
+Chi tiết: <https://developer.tiki.vn/docs/api/device/compass/off-compass>
 
 ### Thêm API my.onNetworkStatusChange
 
 API dùng để nhận sự kiện thay đổi trạng thái mạng của thiết bị.
 
-Chi tiết: https://developer.tiki.vn/docs/api/device/on-network-status-change
+Chi tiết: <https://developer.tiki.vn/docs/api/device/on-network-status-change>
 
 ### Thêm API my.offNetworkStatusChange
 
 API dùng để huỷ nhận sự kiện thay đổi trạng thái mạng của thiết bị.
 
-Chi tiết: https://developer.tiki.vn/docs/api/device/off-network-status-change
+Chi tiết: <https://developer.tiki.vn/docs/api/device/off-network-status-change>
 
 ## Sửa lỗi
 
@@ -120,37 +178,37 @@ Trong phiên bản mới, bạn có thể tạo page, component bằng cách nh�
 
 API dùng để tạo component select đa cấp.
 
-Chi tiết: https://developers.tiki.vn/docs/api/ui/multi-level-select/multi-level-select
+Chi tiết: <https://developers.tiki.vn/docs/api/ui/multi-level-select/multi-level-select>
 
 ### Thêm API my.optionsSelect
 
 API dùng để tạo component Select. Bạn có thể tạo component Select 1 cấp hoặc 2 cấp.
 
-Chi tiết: https://developers.tiki.vn/docs/api/ui/option-selector/option-selector#giới-thiệu
+Chi tiết: <https://developers.tiki.vn/docs/api/ui/option-selector/option-selector#giới-thiệu>
 
 ### Thêm API my.trimVideo
 
 API cho phép cắt video trong 1 khoảng thời gian.
 
-Chi tiết: https://developers.tiki.vn/docs/api/media/video/trim-video
+Chi tiết: <https://developers.tiki.vn/docs/api/media/video/trim-video>
 
 ### Thêm API my.vibrate
 
 API dùng để làm rung thiết bị, với thời gian rung 200ms.
 
-Chi tiết: https://developers.tiki.vn/docs/api/device/vibrate
+Chi tiết: <https://developers.tiki.vn/docs/api/device/vibrate>
 
 ### Thêm API my.vibrateShort
 
 API dùng để làm rung thiết bị, với thời gian rung 40ms.
 
-Chi tiết: https://developers.tiki.vn/docs/api/device/vibrateShort
+Chi tiết: <https://developers.tiki.vn/docs/api/device/vibrateShort>
 
 ### Thêm API my.vibrateLong
 
 API dùng để làm rung thiết bị, với thời gian rung 400ms.
 
-Chi tiết: https://developers.tiki.vn/docs/api/device/vibrateLong
+Chi tiết: <https://developers.tiki.vn/docs/api/device/vibrateLong>
 
 ### Thêm API my.openSetting
 
@@ -160,19 +218,19 @@ API dùng để mở cài đặt của thiết bị.
 
 API dùng để lấy thông tin kết nối mạng của thiết bị.
 
-Chi tiết: https://developers.tiki.vn/docs/api/device/get-network-type
+Chi tiết: <https://developers.tiki.vn/docs/api/device/get-network-type>
 
 ### Thêm API my.setKeepScreenOn
 
 API dùng để giữ màn hình luôn sáng.
 
-Chi tiết: https://developers.tiki.vn/docs/api/device/keep-screen-on
+Chi tiết: <https://developers.tiki.vn/docs/api/device/keep-screen-on>
 
 ### Thêm API my.getScreenBrightness
 
 API dùng để lấy thông tin độ sáng màn hình.
 
-Chi tiết: https://developers.tiki.vn/docs/api/device/get-screen-brightness
+Chi tiết: <https://developers.tiki.vn/docs/api/device/get-screen-brightness>
 
 ### Thêm API my.callSecuritySystem
 
@@ -186,7 +244,7 @@ API này cho phép các nhà phát triển thoát khỏi Tini App.
 
 API dùng để lấy thông tin pin của thiết bị.
 
-Chi tiết: https://developers.tiki.vn/docs/api/device/get-battery-info
+Chi tiết: <https://developers.tiki.vn/docs/api/device/get-battery-info>
 
 ### Thêm API my.datePicker
 
@@ -214,7 +272,7 @@ API này cho phép các nhà phát triển có thể thay thế trang hiện t�
 
 Chi tiết có thể xem tại
 
-https://developers.tiki.vn/docs/api/ui/route/redirect-to
+<https://developers.tiki.vn/docs/api/ui/route/redirect-to>
 
 ## Hỗ trợ thêm API để kiểm tra xem users đã cho phép nhận notification từ app Tiki hay chưa
 
@@ -306,7 +364,7 @@ Tính năng này sẽ giúp các bạn có thể trải nghiệm các tính năn
 
 Chi tiết có thể xem tại
 
-https://developers.tiki.vn/docs/introduce/how-to-use-docs/experience-sample-code
+<https://developers.tiki.vn/docs/introduce/how-to-use-docs/experience-sample-code>
 
 ---
 
@@ -323,7 +381,7 @@ API có 2 lựa chọn cho users
 
 Chi tiết có thể xem tại
 
-https://developers.tiki.vn/docs/api/media/video/choose-video
+<https://developers.tiki.vn/docs/api/media/video/choose-video>
 
 ## Support thêm API my.createtInterstitialAd
 
@@ -335,7 +393,7 @@ Nội dung của banner quảng cáo cũng như việc truy vết xem banner nà
 
 Chi tiết có thể xem tại
 
-https://developers.tiki.vn/docs/api/ads/create-interstitial-ad
+<https://developers.tiki.vn/docs/api/ads/create-interstitial-ad>
 
 ## Cho phép thêm lựa chọn injectedScript vào trong web-view component
 
@@ -349,7 +407,7 @@ Tuy nhiên, để sử dụng chức năng này, ứng dụng của bạn cần 
 
 Chi tiết có thể xem tại
 
-https://developers.tiki.vn/docs/api/media/image/crop-image
+<https://developers.tiki.vn/docs/api/media/image/crop-image>
 
 Đi kèm với API crop image, chúng tôi cũng hỗ trợ thêm component mới <image-cropper> cho phép để hỗ trợ việc crop một ảnh bất kỳ.
 
@@ -358,9 +416,9 @@ Nếu bạn đơn giản chỉ muốn crop hình, bạn có thể sử dụng AP
 Tuy nhiên, nếu bạn customize việc crop hình, thì <image-cropper> là dành cho bạn.
 
 Chi tiết về <image-cropper> có thể xem thêm tại
-https://developers.tiki.vn/docs/component/basic/utilities/image-cropper
+<https://developers.tiki.vn/docs/component/basic/utilities/image-cropper>
 Sử dụng component <image-cropper> sẽ phải kèm với jsapi createCropperContext để thực hiện crop hình.
-https://developers.tiki.vn/docs/api/media/image/create-cropper-context
+<https://developers.tiki.vn/docs/api/media/image/create-cropper-context>
 
 ## Sửa lỗi UI của my.previewImage
 
@@ -415,10 +473,10 @@ Ví dụ, dự án của bạn có structure như sau
 
 ```
 |-- project
-		|-- app1
-			  |-- app.json
-		|-- app2
-			  |-- app.json
+  |-- app1
+     |-- app.json
+  |-- app2
+     |-- app.json
 ```
 
 Nếu Tini Studio được mở với thư mục project, thì Tini Studio sẽ lựa chọn `app1` là root của project của bạn.
@@ -459,7 +517,7 @@ load cả các custom font trong ứng dụng của mình.
 ## Hiển thị lỗi khi upload Tini App
 
 Trong các phiên bản cũ, khi tổ chức của bạn chưa có bất kỳ ứng dụng nào trên Dev Center, nếu bạn upload Tini App lên,
-Studio sẽ tự động mở đường dẫn https://developers.tiki.vn
+Studio sẽ tự động mở đường dẫn <https://developers.tiki.vn>
 
 Trong version 1.16, Tini Studio sẽ hiện thị một message để thông báo cho developers tạo mới ứng dụng trên Dev Center
 
@@ -501,19 +559,19 @@ Bug này sẽ được fix trên bản mới.
 
 Từ phiên bản 1.16, developer có thể sử dụng API my.setCanPullDown để set lại việc hỗ trợ kéo xuống để refresh.
 
-Chi tiết về API có thể xem tại https://developers.tiki.vn/docs/api/ui/pull-down/can-pull-down
+Chi tiết về API có thể xem tại <https://developers.tiki.vn/docs/api/ui/pull-down/can-pull-down>
 
 ## Thêm API my.setBackgroundTextStyle
 
 Từ phiên bản 1.16, developer có thể sử dụng API my.setBackgroundTextStyle để set lại font và color của text Kéo xuống để refresh.
 
-Chi tiết về API có thể xem tại https://developers.tiki.vn/docs/api/ui/background/set-background-text-style
+Chi tiết về API có thể xem tại <https://developers.tiki.vn/docs/api/ui/background/set-background-text-style>
 
 ## Thêm API my.setBackgroundColor
 
 Từ phiên bản 1.16, developer có thể sử dụng API my.setBackgroundColor để set màu background của window.
 
-Chi tiết về API có thể xem tại https://developers.tiki.vn/docs/api/ui/background/set-background-color
+Chi tiết về API có thể xem tại <https://developers.tiki.vn/docs/api/ui/background/set-background-color>
 
 ## Yêu cầu phải whitelist domain cho component `web-view`
 
