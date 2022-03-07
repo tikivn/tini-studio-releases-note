@@ -8,12 +8,6 @@ my.getAppSecret là API để load 1 web font.
 
 Chi tiết: <https://developers.tiki.vn/docs/api/ui/font/load-font-face>
 
-### Thêm API my.getAllContacts
-
-my.getAllContacts là API dùng để lấy danh sách liên hệ.
-
-Chi tiết: <https://developers.tiki.vn/docs/api/device/get-all-contacts>
-
 ### Thêm API my.getAppIdSync
 
 my.getAppIdSync là API dùng để lấy ID của Mini App hiện tại.
