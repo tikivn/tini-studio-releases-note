@@ -1,3 +1,45 @@
+# Studio 1.23
+
+## Tính năng mới
+
+### Thêm API my.loadFontFace
+
+my.getAppSecret là API để load 1 web font.
+
+Chi tiết: <https://developers.tiki.vn/docs/api/ui/font/load-font-face>
+
+### Thêm API my.getAllContacts
+
+my.getAllContacts là API dùng để lấy danh sách liên hệ.
+
+Chi tiết: <https://developers.tiki.vn/docs/api/device/get-all-contacts>
+
+### Thêm API my.getAppIdSync
+
+my.getAppIdSync là API dùng để lấy ID của Mini App hiện tại.
+
+Chi tiết: <https://developers.tiki.vn/docs/api/basic/get-app-id>
+
+### Thêm API my.onAcceleronmeterChange
+
+my.onAcceleronmeterChange là một API để theo dõi các sự kiện thay đổi dữ liệu cảm biến gia tốc. Sau khi giao diện được gọi, quá trình giám sát sẽ tự động bắt đầu và khoảng thời gian gọi lại là 500ms. Bạn có thể sử dụng my.offAcceleronmeterChange() để dừng việc giám sát.
+
+Chi tiết: <https://developers.tiki.vn/docs/api/device/acceleronmeter/on-acceleronmeter>
+
+### Thêm API my.offAcceleronmeterChange
+
+my.offAcceleronmeterChange là API giúp dừng việc theo dõi dữ liệu acceleronmeter.
+
+Chi tiết: <https://developers.tiki.vn/docs/api/device/acceleronmeter/off-acceleronmeter>
+
+### Thêm API my.offUserCaptureScreen
+
+my.offUserCaptureScreen là API giúp dừng việc lắng nghe các sự kiện chụp màn hình.
+
+Chi tiết: <https://developers.tiki.vn/docs/api/device//user-screenshot-event/off-user-capture-screen>
+
+---
+
 # Studio 1.22
 
 ## Cập nhật
