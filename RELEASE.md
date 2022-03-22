@@ -1,3 +1,35 @@
+# Studio 1.24
+
+Chúng tôi luôn cố gắng lắng nghe để cải thiện sản phẩm, sao cho việc phát triển ứng dụng thuận tiện hơn, nhanh hơn và cũng như chất lượng hơn.
+
+## Tính năng mới
+
+### Tính năng Breadcrumbs
+
+Hiển thị vị trí hiện tại của file, cho phép di chuyển nhanh tới folders, files và symbols
+
+### Lite mode ver 1.0 cho simulator
+
+Hỗ trợ tính năng tách simulator ra một cửa sổ riêng nhằm tối ưu không gian code, di chuyển simulator sang các màn hình khác
+
+## Thay đổi
+
+### Xoá right arrow icon cho Address item
+
+### Tự động thêm itm url cho các APIs: my.openScreen, my.openDeepLink
+
+## Sửa lỗi
+
+### Sửa lỗi kiểm tra trang thái đã check cho Checkbox
+
+### Sửa lỗi đếm số kí tự cho Textarea
+
+### Sửa lỗi tìm kiếm cho Input trên iOS
+
+### Sửa lỗi chọn camera
+
+---
+
 # Studio 1.23
 
 ## Tính năng mới
