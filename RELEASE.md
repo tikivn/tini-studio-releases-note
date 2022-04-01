@@ -1,3 +1,33 @@
+# Studio 1.25
+
+Chúng tôi luôn cố gắng lắng nghe để cải thiện sản phẩm, sao cho việc phát triển ứng dụng thuận tiện hơn, nhanh hơn và cũng như chất lượng hơn.
+
+## Tính năng mới
+
+### Thêm API my.getCart
+
+my.getCart là API trả về tổng sản phẩm đang có trong giỏ hàng (cart) của Tiki.
+
+Chi tiết: <https://developers.tiki.vn/docs/api/open/get-cart>
+
+### Thêm API my.chooseVideo
+
+my.chooseVideo là API dùng để quay video hoặc chọn video từ album cục bộ.
+
+### Thêm API my.checkNativePermissions
+
+my.checkNativePermissions là API dùng để kiểm tra người dùng đã bật các quyền cho Tiki app hay chưa.
+
+Chi tiết: <https://developers.tiki.vn/docs/api/device/check-native-permissions>
+
+## Sửa lỗi
+
+### Sửa lỗi API my.getAllContacts cho iOS
+
+### Sửa lỗi cập nhật giao diện transparent cho navigation bar
+
+---
+
 # Studio 1.24
 
 Chúng tôi luôn cố gắng lắng nghe để cải thiện sản phẩm, sao cho việc phát triển ứng dụng thuận tiện hơn, nhanh hơn và cũng như chất lượng hơn.
