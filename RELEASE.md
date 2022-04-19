@@ -1,3 +1,27 @@
+# Studio 1.26
+
+Chúng tôi luôn cố gắng lắng nghe để cải thiện sản phẩm, sao cho việc phát triển ứng dụng thuận tiện hơn, nhanh hơn và cũng như chất lượng hơn.
+
+## Cập nhật
+
+### Thêm currentTime cho onTimeUpdate trong video component
+
+### Thêm event buffer cho video component
+
+## Tính năng mới
+
+### Tính năng App Data trong DevTools
+
+App Data là một tính năng mới trong DevTools, mà bạn có thể xem các dữ liệu của từng màn hình ứng dụng.
+
+## Sửa lỗi
+
+### Sửa lỗi hiển thị sai giao diện của toolbar trên windows
+
+### Sửa lỗi auto height của textarea component
+
+---
+
 # Studio 1.25
 
 Chúng tôi luôn cố gắng lắng nghe để cải thiện sản phẩm, sao cho việc phát triển ứng dụng thuận tiện hơn, nhanh hơn và cũng như chất lượng hơn.
