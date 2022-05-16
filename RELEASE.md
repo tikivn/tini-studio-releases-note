@@ -1,3 +1,42 @@
+
+# Studio 1.27
+
+Chúng tôi luôn cố gắng lắng nghe để cải thiện sản phẩm, sao cho việc phát triển ứng dụng thuận tiện hơn, nhanh hơn và cũng như chất lượng hơn.
+
+## Thay đổi có thể gây ảnh hưởng
+
+### Mặc định sử dụng kiến trúc mới cho custom component
+
+Như đã thông báo trước đó, những thay đổi bao gồm: Đồng bộ lifecycle giữa render và worker, tách biệt lifecycle methods và component methods. Những thay đổi sẽ được thông báo trong mục Console của DevTools.
+
+Chi tiết: <https://community.tiki.vn/t/thong-bao-thay-d-i-v-ki-n-truc-ben-trong-c-a-custom-component/1852>
+
+## Cập nhật
+
+### Cập nhật dữ liệu trực tiếp trên App Data của DevTools
+
+### Chỉnh sửa lại giao diện đăng nhập
+
+## Tính năng mới
+
+### Tính năng Clear All User Data
+
+Cho phép xoá toàn bộ dữ liệu người dùng của Tini App Studio. Nhằm khắc phục các lỗi tiềm ẩn. Trong việc xoá dữ liệu người dùng, Tini App Studio sẽ tự động xoá dữ liệu đăng nhập nên bạn cần phải đăng nhập lại.
+
+### Thêm navigator component
+
+Navigator là component hỗ trợ điều hướng (routing) một cách trực tiếp trong txml.
+
+Chi tiết: <https://developers.tiki.vn/docs/component/basic/navigation/navigator>
+
+## Sửa lỗi
+
+### Sửa lỗi onPageScroll
+
+### Sửa lỗi css cho action sheet
+
+---
+
 # Studio 1.26
 
 Chúng tôi luôn cố gắng lắng nghe để cải thiện sản phẩm, sao cho việc phát triển ứng dụng thuận tiện hơn, nhanh hơn và cũng như chất lượng hơn.
