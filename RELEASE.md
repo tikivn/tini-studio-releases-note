@@ -1,3 +1,26 @@
+# Version 1.28
+
+> Chúng tôi luôn cố gắng lắng nghe để cải thiện sản phẩm, sao cho việc phát triển ứng dụng thuận tiện hơn, nhanh hơn và cũng như chất lượng hơn.
+
+## Cập nhật
+
+### Tối ưu một số thành phần để giảm kích thước ứng dụng
+
+### Tối ưu quá trình compile Tini App để tăng tốc ứng dụng
+
+## Tính năng mới
+
+### Hỗ trợ Typescript
+
+Studio đã hỗ trợ xây dựng Tini App bằng Typescript: Bao gồm editor và compiler.
+
+Chi tiết: <https://developers.tiki.vn/docs/development/studio/typescript-support>
+
+### Tính năng Feedback
+
+Trên thanh điều khiển của Studio, bạn có thể gửi đánh giá và phản hồi cho chúng tôi bằng cách nhấn vào nút Feedback.
+
+---
 
 # Studio 1.27
 
