@@ -4,21 +4,21 @@
 
 ## Cập nhật
 
-### Tối ưu một số thành phần để giảm kích thước ứng dụng
+- Tối ưu một số thành phần để giảm kích thước ứng dụng
 
-### Tối ưu quá trình compile Tini App để tăng tốc ứng dụng
+- Tối ưu quá trình compile Tini App để tăng tốc ứng dụng
 
 ## Tính năng mới
 
-### Hỗ trợ Typescript
+- Hỗ trợ Typescript
 
-Studio đã hỗ trợ xây dựng Tini App bằng Typescript: Bao gồm editor và compiler.
+  - Studio đã hỗ trợ xây dựng Tini App bằng Typescript: Bao gồm editor và compiler.
 
-Chi tiết: <https://developers.tiki.vn/docs/development/studio/typescript-support>
+  - Chi tiết: <https://developers.tiki.vn/docs/development/studio/typescript-support>
 
-### Tính năng Feedback
+- Tính năng Feedback
 
-Trên thanh điều khiển của Studio, bạn có thể gửi đánh giá và phản hồi cho chúng tôi bằng cách nhấn vào nút Feedback.
+  - Trên thanh điều khiển của Studio, bạn có thể gửi đánh giá và phản hồi cho chúng tôi bằng cách nhấn vào nút Feedback.
 
 ---
 
