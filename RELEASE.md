@@ -1,3 +1,21 @@
+# Version 1.29
+
+> Chúng tôi luôn cố gắng lắng nghe để cải thiện sản phẩm, sao cho việc phát triển ứng dụng thuận tiện hơn, nhanh hơn và cũng như chất lượng hơn.
+
+## Tính năng mới
+
+### Thêm Biometrics
+
+- Biometrics hay còn gọi là xác thực sinh trắc học, là tính năng của thiết bị dùng để bảo mật quyền riêng tư bao gồm vân tay (TouchID), nhận diện gương mặt (FaceID), nhận diện móng mắt (Iris Recognition)...
+
+- Chi tiết: <https://developers.tiki.vn/docs/api/device/bio-metrics/introduction>
+
+## Sửa lỗi
+
+- Hiển thị sai thông báo cho project sử dụng typescript
+
+---
+
 # Version 1.28
 
 > Chúng tôi luôn cố gắng lắng nghe để cải thiện sản phẩm, sao cho việc phát triển ứng dụng thuận tiện hơn, nhanh hơn và cũng như chất lượng hơn.
