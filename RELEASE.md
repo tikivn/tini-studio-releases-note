@@ -22,7 +22,7 @@
 - Sửa lỗi Date Picker
 - Sửa lỗi chuyển đổi giữa các tab
 
-## <br/>
+---
 
 # Version 1.29
 
@@ -40,7 +40,7 @@
 
 - Hiển thị sai thông báo cho project sử dụng typescript
 
-## <br/>
+---
 
 # Version 1.28
 
@@ -64,7 +64,7 @@
 
   - Trên thanh điều khiển của Studio, bạn có thể gửi đánh giá và phản hồi cho chúng tôi bằng cách nhấn vào nút Feedback.
 
-## <br/>
+---
 
 # Studio 1.27
 
@@ -102,7 +102,7 @@ Chi tiết: <https://developers.tiki.vn/docs/component/basic/navigation/navigato
 
 ### Sửa lỗi css cho action sheet
 
-## <br/>
+---
 
 # Studio 1.26
 
@@ -126,7 +126,7 @@ App Data là một tính năng mới trong DevTools, mà bạn có thể xem cá
 
 ### Sửa lỗi auto height của textarea component
 
-## <br/>
+---
 
 # Studio 1.25
 
@@ -156,7 +156,7 @@ Chi tiết: <https://developers.tiki.vn/docs/api/device/check-native-permissions
 
 ### Sửa lỗi cập nhật giao diện transparent cho navigation bar
 
-## <br/>
+---
 
 # Studio 1.24
 
@@ -188,7 +188,7 @@ Hỗ trợ tính năng tách simulator ra một cửa sổ riêng nhằm tối �
 
 ### Sửa lỗi chọn camera
 
-## <br/>
+---
 
 # Studio 1.23
 
@@ -224,7 +224,7 @@ my.offUserCaptureScreen là API giúp dừng việc lắng nghe các sự kiện
 
 Chi tiết: <https://developers.tiki.vn/docs/api/device//user-screenshot-event/off-user-capture-screen>
 
-## <br/>
+---
 
 # Studio 1.22
 
@@ -282,7 +282,7 @@ Chi tiết: <https://developers.tiki.vn/docs/component/basic/media/player>
 
 ### Sửa lỗi overlay của date picker
 
-## <br/>
+---
 
 # Studio 1.21
 
@@ -334,7 +334,7 @@ Chi tiết: <https://developers.tiki.vn/docs/api/device/watch-shake>
 
 ### Sửa lỗi Tini App đôi khi không hoạt động trên iOS 12
 
-## <br/>
+---
 
 # Studio 1.20
 
@@ -392,7 +392,7 @@ Chi tiết: <https://developer.tiki.vn/docs/api/device/off-network-status-change
 
 ### Sửa lỗi readonly color trong input
 
-## <br/>
+---
 
 # Studio 1.19
 
@@ -488,7 +488,7 @@ Trong phiên bản mới, chúng tôi thêm cấu hình rootFontSize cho window 
 
 ### Sửa lỗi decode không hoạt động trên text component
 
-## <br/>
+---
 
 # Studio 1.18
 
@@ -594,7 +594,7 @@ Chi tiết có thể xem tại
 
 <https://developers.tiki.vn/docs/introduce/how-to-use-docs/experience-sample-code>
 
-## <br/>
+---
 
 # Studio 1.17
 
@@ -688,7 +688,7 @@ Từ version 1.17, Tini Studio sẽ hỗ trợ việc sử dụng các selector 
 
 Từ version 1.17, Tini Studio sẽ tự động thêm một biến TF_MINIAPP_COMPILER_VERSION vào các Tini App.
 
-## <br/>
+---
 
 # Studio 1.16
 
