@@ -1,8 +1,9 @@
 # Version 1.35
-[Tini Studio phiên bản 1.35](https://developers.tiki.vn/downloads) mang đến nhiều cải thiện về UI và hiệu năng. 
+[**Tini Studio phiên bản 1.35**](https://developers.tiki.vn/downloads) mang đến nhiều cải thiện về UI và hiệu năng. 
 ## Tính năng mới
 - **[Support native Apple Silicon](https://developers.tiki.vn/downloads)**: Tini Studio phiên bản 1.35 đã có phiên bản native arm64 cho Macbook Apple M1 series
-- **[Mock Control Panel](https://community.tiki.vn/t/post/8508)**: Tính năng cho phép developer intercept và mock response data cho http request trong quá trình phát triển. <p align="center"> 
+- **[Mock Control Panel](https://community.tiki.vn/t/post/8508)**: Tính năng cho phép developer intercept và mock response data cho http request trong quá trình phát triển. 
+<p align="center"> 
   <img width="97%" alt="Mock Control Panel" src="https://global.discourse-cdn.com/standard14/uploads/tiki/optimized/2X/1/17128a38b554d702bf2161bb1241e068d9f291b2_2_1380x862.jpeg" />
  </p>
  
@@ -23,46 +24,6 @@
 - Cannot copy as curl/fetch/node in DevTools Networks panel
 - Fix WebView: connection via postMessage
 - Trigger callback `success` for my.navigateToMiniApp
-
----
-[Tini Studio phiên bản 1.35](https://developers.tiki.vn/downloads) mang đến nhiều cải thiện về UI và hiệu năng. 
-
-## Tính năng mới
-### Mock Control Panel
-<p align="center"> 
-  <img width="97%" alt="Mock Control Panel" src="https://global.discourse-cdn.com/standard14/uploads/tiki/optimized/2X/1/17128a38b554d702bf2161bb1241e068d9f291b2_2_1380x862.jpeg" />
- </p> 
-- Tính năng cho phép chạy ứng dụng trực tiếp trên thiết bị thông qua Tini App Studio bằng cách quét mã QR mà không cần phải upload bản build mới.
-
-  
-
-## Cập nhật
-
-  
-
-- Chặn thêm các tính năng không được cho phép
-
-- Tăng cường bảo bật
-
-  
-
-## Sửa lỗi
-
-  
-
-- Sửa lỗi JSApi openAppSetting
-
-- Sửa lỗi JSApi addPhoneContact trên Android
-
-- Sửa lỗi history back cho bản web
-
-- Sửa lỗi không thể mở Dev Assistant cho phiên bản web
-
-- Sửa lỗi Date Picker
-
-- Sửa lỗi chuyển đổi giữa các tab
-
-  
 
 ---
 # Version 1.33
