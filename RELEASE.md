@@ -18,7 +18,8 @@
 - Update default Theme: Tini Light Theme and Tini Dark Theme
 <p align="center"> 
   <img width="97%" alt="Tini Dark Theme" src="https://salt.tikicdn.com/cache/2048x0/ts/tiniapp/c1/32/83/ecd9f2bf2cc3ba1cc3c21d2c2b7ca773.png" />
- </p> 
+ </p>
+
 
 ## Sửa lỗi
 
