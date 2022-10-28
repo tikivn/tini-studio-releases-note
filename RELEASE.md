@@ -1,3 +1,28 @@
+
+# Version 1.36
+
+[**Tini Studio phiên bản 1.36**](https://developers.tiki.vn/downloads) mang đến nhiều thay đổi lớn về compiler.
+
+## Tính năng mới
+
+- **Tăng tốc compiler cho development time, upto 70%**(*): 
+Compile stage in development với simulator được tối ưu bằng cách preload các module, từ đó cải thiện thời gian compile app, reload app.  
+![new compiler](https://lh4.googleusercontent.com/lW5zxOI-V5ZzG-729BEggxo7mj3S-Zfiyhw_rL8GoPfBR-anGfjKGS3IVaQk21mbzusmCWQe0-b30Jwhko7UDwyM2sFjdG2s_gqrrTdjSVcCKo3-ZqxsYQ_2IeG4kQm2zVuJrr7fq50dPgyMRfJ_JFsjKiUJ-e5-eAtVuTs59bqonSkzpCFWomCBwA)  
+Ex: Với Mini App Demo(Tini App APIs template) hiện có khoảng 160 pages và hơn 100 custom components, compiler sẽ giảm compile stage xuống còn 4.9s cho full reload và < 1000ms cho single module reload(on macos).  
+>(*) *Tuỳ vào số lượng page và component của tini app cũng như các module phụ thuộc.*
+
+- **Projects Launcher** 
+Projects Launcher hỗ trợ developer thuận tiện hơn trong việc quản lý đa dự án Tini App với Tini Studio IDE  
+![Tini Studio - Projects Launcher Screen](https://lh5.googleusercontent.com/Ypq8AnQ77mSCV40vLlCwB_UG2NbTzfxHxNZU4eKry9IapBf1tvpENgggikpKM5-Be1nqPpbNYyac3Z__5KUwU709amcYQohwGwAZQ6vVxuKtD9jTlviaUHBdeYnrv1VuJwQ_VkTPR40EJr32TlW6rZE6JeAT5yriIrLGJ7MK1yqdVBXC5sCQSkpTlw)  
+*Tini Studio - Projects Launcher Screen*
+ 
+- **New JSAPIs**:
+	- my.openSocialLandingPage
+
+## Sửa lỗi
+- Simulator offline mode
+- Page Info not working on windows
+---
 # Version 1.35
 [**Tini Studio phiên bản 1.35**](https://developers.tiki.vn/downloads) mang đến nhiều cải thiện về UI và hiệu năng. 
 ## Tính năng mới
