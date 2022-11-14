@@ -1,4 +1,36 @@
 
+  
+
+# Version 1.37
+
+  
+
+[**Tini Studio phiên bản 1.37**](https://developers.tiki.vn/downloads) là bản cập nhật bao gồm một số cải thiện về hiệu năng và một số lỗi tồn tại.
+
+  
+
+## New features
+  
+
+- **Switcher for navigation bar version 2**
+- **Smart forcus Studio on launch for multiple screens system**
+   
+
+- **JSAPIs**:
+
+	- my.makePaymentAddToCart
+	- my.addIconsToNavigationBar: maximum 1 icon to be added
+
+  
+
+## Fixed
+
+- Fix auto center on multiple screens
+- Disable hardware acceleration on windows
+- Compiler caching issues
+- Cannot search files on x64 devices
+- Always disable mock panel on first load for Studio
+---
 # Version 1.36
 
 [**Tini Studio phiên bản 1.36**](https://developers.tiki.vn/downloads) mang đến nhiều thay đổi lớn về compiler.
